@@ -220,7 +220,7 @@ a{
 
 @media screen and (max-width: 768px){
   main{
-    width:100vw;
+    width:100%;
     overflow:wrap;
     display: grid;
     grid-template-columns: repeat(12, 1Fr);
@@ -229,13 +229,13 @@ a{
   }
   
   .img-container{
-    grid-column-start: 4;
     grid-column: span 4;
     display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 49px;
   margin-top: 12rem;
+  padding-right: 10px;
   }
   
   .grid-item {
@@ -264,7 +264,8 @@ a{
     display:flex;
     flex-direction: column;
     gap: 239px;
-    grid-column-start: 2; 
+    grid-column-start: 1; 
+    
     margin-top: 12rem;
   }
   
@@ -282,7 +283,10 @@ a{
   }
   
 
-  
+  .blank{
+    visibility: none;
+  }
+
   .blank2{
     visibility: none;
   }
@@ -336,22 +340,14 @@ a{
   
   
   
-  @keyframes blink {
-    0% { opacity: 1; }
-    60% { opacity: 0.3; }
-    100% { opacity: 1; }
-  }
-  
-  
   .name{
     font-family: "t26-carbon", monospace;
   font-weight: 100;
   font-style: italic;
-  font-size: 2rem;
-  color: #F0F0F0;
+  font-size: 1.5rem;
   position: absolute;
-  top:4.13rem;
-  left:9rem;
+  left:8rem;
+width: 100%;
   }
   
   a{
