@@ -219,7 +219,7 @@ a{
 
 
 
-@media screen and (max-width: 768px){
+@media only screen and (max-width: 600px){
   main{
     width:100%;
     overflow:wrap;
@@ -229,12 +229,20 @@ a{
     margin:0rem 0rem 0rem 0rem;
   }
   
+  body{
+    font-size:1.6rem;
+    margin:0;
+    height:421rem;
+    background: linear-gradient(180deg, #111317 53.5%, #936631 100%);
+  }
+
+  
   .img-container{
     grid-column: span 4;
     display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 49px;
+  gap: 6.25rem;
   margin-top: 12rem;
   padding-right: 10px;
   }
@@ -266,7 +274,7 @@ a{
   .toggle-container{
     display:flex;
     flex-direction: column;
-    gap: 239px;
+    gap: 289.7px;
     grid-column-start: 1; 
     
     margin-top: 12rem;
@@ -295,15 +303,16 @@ a{
   }
   
   .text-container{
-    grid-column-start: 4;
-    grid-column: span 2;
-    display: inline-flex;
-  flex-direction: column;
-  gap: 49px;
-  margin-top: 12rem;
+  gap: 100px;
+  margin-top: 27rem;
   z-index: 900;
   align-items: center;
-  justify-content: center;
+  width:14.875rem;
+  display: flex;
+width: 14.875rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 13.25rem;
   }
   
   .text{
@@ -313,7 +322,7 @@ a{
   font-size: 0.75rem;
   color: #F0F0F0;
   letter-spacing: -0.05rem;
-  height: 100%;
+  height: 112px;
   width:14rem;
   cursor: pointer;
   /* padding-top: 10rem; */
