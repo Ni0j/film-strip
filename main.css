@@ -171,7 +171,7 @@ a{
 .button {
   position: fixed !important;
   transform: none !important;
-  top: 10px; 
+  top:4.13rem;
   right: 10px; 
   z-index: 910; 
   border: 1px solid #F0F0F0;
