@@ -13,14 +13,6 @@ body{
   background: linear-gradient(180deg, #111317 53.5%, #936631 100%);
 }
 
-/* .mobile{
-  display: none;
-}
-
-.laptop{
-  display: flex;
-} */
-
 main{
   width:100vw;
   overflow:wrap;
@@ -196,44 +188,7 @@ a{
 }
 
 
-/* @media screen and (max-width: 375px) {
-  .laptop{
-    display: none;
-  }
 
-  .mobile{
-    display: block;
-  }
-
-  .grid-container-m {
-    width:100vw;
-    overflow:wrap;
-    display: grid;
-    grid-template-columns: repeat(12, 1Fr);
-    gap: 0.625rem; 
-    margin:0rem 0rem 0rem 0rem;
-  }
-
-  .toggle-container-m{
-    gap: 122.5px;
-    grid-column-start: 2; 
-    margin-top: 12rem;
-  }
-  
-  .toggle-m{
-    font-family: "kepler-std-condensed-display", serif;
-  font-weight: 300;
-  font-style: italic;
-    font-size: 2.5rem;
-    line-height: .8;
-    background: none;
-    border: none;
-    text-align: left;
-    color: #FFF;
-    cursor: pointer;
-  }
-
-} */
 #loading-page {
   position: fixed;
   top: 0;
