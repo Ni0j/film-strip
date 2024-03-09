@@ -69,3 +69,36 @@ text.forEach((textItem) => {
        })
    })
 })
+
+
+window.addEventListener('load', function() {
+
+   setTimeout(function() {
+     var loadingPage = document.getElementById('loading-page');
+     loadingPage.style.opacity = 0;
+     setTimeout(function() {
+       loadingPage.style.display = 'none';
+     }, 1000); 
+   }, 3000);
+ });
+
+ var music = document.getElementById("music");
+ var myaudio = document.getElementById("myaudio");
+ var pausedTime = 0;
+
+ music.addEventListener("click", function() {
+
+     if (myaudio.paused) {
+         myaudio.play();
+         music.textContent = "⏸️"; 
+     } else {
+         myaudio.pause();
+         pausedTime = myaudio.currentTime; 
+         music.textContent = "🎵"; 
+     }
+ });
+
+
+ myaudio.addEventListener("ended", function() {
+     music.textContent = "🎵"; 
+ });
