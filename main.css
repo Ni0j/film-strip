@@ -22,6 +22,7 @@ main{
   margin:1.25rem 1.25rem 1.25rem 1.25rem;
 }
 
+
 .img-container{
   grid-column-start: 4;
   grid-column: span 4;
@@ -162,7 +163,9 @@ color: #F0F0F0;
 position: absolute;
 top:4.13rem;
 left:9rem;
+animation: blink 5s infinite;
 }
+
 
 a{
   text-decoration: none;
@@ -348,6 +351,7 @@ a{
   position: absolute;
   left:8rem;
 width: 100%;
+animation: blink 5s infinite;
   }
   
   a{
